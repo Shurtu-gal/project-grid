@@ -1,9 +1,10 @@
+import { Heading1 } from '../../components/shared';
 import { Container } from './styles';
 
 const Home = () => {
 	return (
 		<Container>
-			<h1>Home</h1>
+			<Heading1>Home</Heading1>
 		</Container>
 	);
 };
